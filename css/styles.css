@@ -17,22 +17,35 @@ body {
 
     position: relative;
     background-color: #f6f8ff;
-    height: 37rem;                           /*  9.25rem; */ 
     width: 22.5rem;                            /*  5.62rem;*/
+    height: 37rem;                           /*  9.25rem; */ 
 
+    display: flex;
+    flex-direction: column;
+/*     justify-content: center; */
+    align-items: center;
+}
+
+#marco{
+    position: relative;
+    background-color: #7780a3;
+    width: 18.75rem;
+    height: 15.75rem;
+
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    transform: translate(0%, 23%);
+    
 }
 
 #pantalla{
     position: absolute;
     background-color: #3b3f31;
-    height: 11.75rem;
-    width: 10.75rem; 
-
-    translate: 5rem 5 rem;
+    width: 11.75rem;
+    height: 10.75rem;
+    transform: translate(0%, 0%);
 
 }
 
