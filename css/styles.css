@@ -52,13 +52,14 @@ body {
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 37rem;
+    height: 18.5rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
+    transform: translate(0%, 50%);
 }
 
 #marco {
