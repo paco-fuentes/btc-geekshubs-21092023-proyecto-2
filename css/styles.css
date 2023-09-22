@@ -144,7 +144,6 @@ body {
 /* CRUCETA */
 
 #crucetaMarco{
-
     position: absolute;
     width: 6rem;
     height: 6rem;
@@ -158,33 +157,24 @@ body {
     border-style: dotted;
     border-width: 0.1rem;
     border-color: red;
-
 }
-
 #crucetaH{
-
     position: absolute;
     background-color: rgb(45, 52, 51);
     width: 2rem;
     height: 6rem;
     /* transform: translate(100%, 0%); */
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem; 
-
 }
-
 #crucetaV{
-
     position: absolute;
     background-color: rgb(45, 52, 51);
     width: 6rem;
     height: 2rem;
     /* transform: translate(0%, 100%); */
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem; 
-
 }
-
 #crucetaHtf{
-
     position: absolute;
     background-color: rgb(51, 177, 158);
     width: 5.6rem;
@@ -192,9 +182,7 @@ body {
     transform: translate(0%, 0%);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; 
 }
-
 #crucetaVtf{
-
     position: absolute;
     background-color: rgb(36, 195, 171);
     width: 1.6rem;
@@ -202,9 +190,7 @@ body {
     transform: translate(0%, 0%);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
 }
-
 #crucetaHt1{
-
     position: absolute;
     background-color: rgb(51, 59, 177);
     width: 0.3rem;
@@ -212,9 +198,7 @@ body {
     transform: translate(-2.2rem, 0);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; 
 }
-
 #crucetaVt1{
-
     position: absolute;
     background-color: rgb(36, 52, 195);
     width: 1.3rem;
@@ -222,9 +206,7 @@ body {
     transform: translate(0, -2.2rem);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
 }
-
 #crucetaHt2{
-
     position: absolute;
     background-color: rgb(51, 59, 177);
     width: 0.3rem;
@@ -232,9 +214,7 @@ body {
     transform: translate(-1.4rem, 0);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; 
 }
-
 #crucetaVt2{
-
     position: absolute;
     background-color: rgb(36, 52, 195);
     width: 1.3rem;
@@ -242,6 +222,57 @@ body {
     transform: translate(0, -1.4rem);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
 }
+#crucetaHt3{
+    position: absolute;
+    background-color: rgb(51, 59, 177);
+    width: 0.3rem;
+    height: 1.3rem;
+    transform: translate(2.2rem, 0);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; 
+}
+#crucetaVt3{
+    position: absolute;
+    background-color: rgb(36, 52, 195);
+    width: 1.3rem;
+    height: 0.3rem;
+    transform: translate(0, 2.2rem);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
+}
+
+#crucetaHt4{
+    position: absolute;
+    background-color: rgb(51, 59, 177);
+    width: 0.3rem;
+    height: 1.3rem;
+    transform: translate(1.4rem, 0);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; 
+}
+#crucetaVt4{
+    position: absolute;
+    background-color: rgb(36, 52, 195);
+    width: 1.3rem;
+    height: 0.3rem;
+    transform: translate(0, 1.4rem);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
+}
+#crucetaC{
+    position: absolute;
+    background-color: rgb(36, 52, 195);
+    width: 1.3rem;
+    height: 1.3rem;
+    transform: translate(0, 0rem);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+#crucetaCc{
+    position: absolute;
+    background-color: rgb(23, 32, 118);
+    width: 1rem;
+    height: 1rem;
+    transform: translate(0, 0rem);
+    border-radius: 1rem 1rem 1rem 1rem; 
+}
+
+
 
 
 
