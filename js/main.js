@@ -8,6 +8,8 @@ console.log("----------------------------------------------------------------");
 
 /* ------------ Código David ---------------- */
 
+/* 
+
 let pantalla = document.getElementById("screen");
 
 
@@ -56,7 +58,7 @@ document.addEventListener("click", (e) => {
 
 });
 
-
+*/
 
 /* ------------------------------------------- */
 
