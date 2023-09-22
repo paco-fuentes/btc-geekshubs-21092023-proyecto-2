@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color:aqua;
+    background-color: aqua;
 
     height: 100vh;
     width: 100vw;
@@ -13,20 +13,55 @@ body {
     align-items: center;
 }
 
-#gameBox{
-
+#gameBoxInv {
+    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: relative;
-    background-color: #f6f8ff;
-    width: 22.5rem;                            /*  5.62rem;*/
-    height: 37rem;                           /*  9.25rem; */ 
+    /*     background-color: #f6f8ff; */
+    background-color: red;
+    width: 22.5rem;
+    /*  5.62rem;*/
+    height: 37rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
-/*     justify-content: center; */
+    /*     justify-content: center; */
     align-items: center;
 }
 
-#marco{
+#gameBoxTop {
+    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
+    position: relative;
+    background-color: #f6f8ff; */
+
+    width: 22.5rem;
+    /*  5.62rem;*/
+    height: 37rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    display: flex;
+    flex-direction: column;
+    /*     justify-content: center; */
+    align-items: center;
+}
+
+#gameBoxBottom {
+    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
+    position: relative;
+    background-color: #f6f8ff; */
+
+    width: 22.5rem;
+    /*  5.62rem;*/
+    height: 37rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    display: flex;
+    flex-direction: column;
+    /*     justify-content: center; */
+    align-items: center;
+}
+
+#marco {
     position: relative;
     background-color: #7780a3;
     width: 18.75rem;
@@ -37,15 +72,16 @@ body {
     justify-content: center;
     align-items: center;
     transform: translate(0%, 23%);
-    
+
 }
 
-#pantalla{
+#pantalla {
     position: absolute;
     background-color: #3b3f31;
     width: 11.75rem;
     height: 10.75rem;
     transform: translate(0%, 0%);
+    /* añadir shadow in */
 
 }
 
