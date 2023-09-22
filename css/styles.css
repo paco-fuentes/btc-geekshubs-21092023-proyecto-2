@@ -32,34 +32,39 @@ body {
 #gameBoxTop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: relative;
-    background-color: #f6f8ff; */
+    background-color: #f6f8ff;
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 37rem;
+    height: 24.5rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
+
+    border-radius: 0.5rem 0.5rem 0rem 0rem; 
+    
 }
 
 #gameBoxBottom {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: relative;
-    background-color: #f6f8ff; */
+    background-color: #f6f8ff;
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 18.5rem;
+    height: 14.5rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 0%);
+
+    border-radius: 0rem 0rem 0.5rem 0.5rem; 
 }
 
 #marco {
@@ -73,6 +78,8 @@ body {
     justify-content: center;
     align-items: center;
     transform: translate(0%, 23%);
+
+    border-radius: 0.5rem 0.5rem 3.7rem 0.5rem; 
 
 }
 
