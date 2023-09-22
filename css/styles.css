@@ -147,7 +147,7 @@ body {
     position: absolute;
     width: 6rem;
     height: 6rem;
-    transform: translate(30%, 10%);
+    transform: translate(1.82rem, 0rem);
 
     display: flex;
     flex-direction: column;
@@ -160,7 +160,7 @@ body {
 }
 #crucetaH{
     position: absolute;
-    background-color: rgb(45, 52, 51);
+    background-color: rgb(10, 10, 10);
     width: 2rem;
     height: 6rem;
     /* transform: translate(100%, 0%); */
@@ -168,7 +168,7 @@ body {
 }
 #crucetaV{
     position: absolute;
-    background-color: rgb(45, 52, 51);
+    background-color: rgb(10, 10, 10);
     width: 6rem;
     height: 2rem;
     /* transform: translate(0%, 100%); */
@@ -176,7 +176,7 @@ body {
 }
 #crucetaHtf{
     position: absolute;
-    background-color: rgb(51, 177, 158);
+    background-color: rgb(30, 30, 30);
     width: 5.6rem;
     height: 1.6rem;
     transform: translate(0%, 0%);
@@ -184,7 +184,7 @@ body {
 }
 #crucetaVtf{
     position: absolute;
-    background-color: rgb(36, 195, 171);
+    background-color: rgb(30, 30, 30);
     width: 1.6rem;
     height: 5.6rem;
     transform: translate(0%, 0%);
@@ -192,7 +192,7 @@ body {
 }
 #crucetaHt1{
     position: absolute;
-    background-color: rgb(51, 59, 177);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 0.3rem;
     height: 1.3rem;
     transform: translate(-2.2rem, 0);
@@ -200,7 +200,7 @@ body {
 }
 #crucetaVt1{
     position: absolute;
-    background-color: rgb(36, 52, 195);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1.3rem;
     height: 0.3rem;
     transform: translate(0, -2.2rem);
@@ -208,7 +208,7 @@ body {
 }
 #crucetaHt2{
     position: absolute;
-    background-color: rgb(51, 59, 177);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 0.3rem;
     height: 1.3rem;
     transform: translate(-1.4rem, 0);
@@ -216,7 +216,7 @@ body {
 }
 #crucetaVt2{
     position: absolute;
-    background-color: rgb(36, 52, 195);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1.3rem;
     height: 0.3rem;
     transform: translate(0, -1.4rem);
@@ -224,7 +224,7 @@ body {
 }
 #crucetaHt3{
     position: absolute;
-    background-color: rgb(51, 59, 177);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 0.3rem;
     height: 1.3rem;
     transform: translate(2.2rem, 0);
@@ -232,16 +232,15 @@ body {
 }
 #crucetaVt3{
     position: absolute;
-    background-color: rgb(36, 52, 195);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1.3rem;
     height: 0.3rem;
     transform: translate(0, 2.2rem);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;     
 }
-
 #crucetaHt4{
     position: absolute;
-    background-color: rgb(51, 59, 177);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 0.3rem;
     height: 1.3rem;
     transform: translate(1.4rem, 0);
@@ -249,7 +248,7 @@ body {
 }
 #crucetaVt4{
     position: absolute;
-    background-color: rgb(36, 52, 195);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1.3rem;
     height: 0.3rem;
     transform: translate(0, 1.4rem);
@@ -257,7 +256,7 @@ body {
 }
 #crucetaC{
     position: absolute;
-    background-color: rgb(36, 52, 195);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1.3rem;
     height: 1.3rem;
     transform: translate(0, 0rem);
@@ -265,16 +264,67 @@ body {
 }
 #crucetaCc{
     position: absolute;
-    background-color: rgb(23, 32, 118);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1rem;
     height: 1rem;
     transform: translate(0, 0rem);
     border-radius: 1rem 1rem 1rem 1rem; 
 }
+#crucetaHtop{
+    position: absolute;
+    background-color: rgba(80, 80, 80, 0.5);
+    background-blend-mode: multiply;
+    width: 5.6rem;
+    height: 1.6rem;
+    transform: translate(0%, 0%);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;  
+}
+#crucetaVtop{
+    position: absolute;
+    background-color: rgba(80, 80, 80, 0.5);
+    background-blend-mode: multiply;
+    width: 1.6rem;
+    height: 5.6rem;
+    transform: translate(0%, 0%);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+         
+}
 
+/* -----------------BOTONES-------------------------------- */
 
+#botonesMarco{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    transform: translate(14.4rem, 0rem);
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+}
+
+/* -----------------START / SELECT-------------------------------- */
+
+#startMarco{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    transform: translate(8.1rem, 6.1rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+}
 
 
 
