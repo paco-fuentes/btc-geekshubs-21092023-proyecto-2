@@ -30,22 +30,44 @@ body {
     /*     justify-content: center; */
     align-items: center;
 
-    
+
     border-style: dotted;
     border-width: 0.1rem;
     border-color: red;
 
-    
+
 }
 
-#gameBoxTexture{
+#gameBoxTexture {
+    /*     .grit {
+        -webkit-mask-image: url("../img/texture-1.png");
+        mask-image: url("../img/texture-1.png");
+      } */
 
+    background-size: cover;
+    display: block;
+    max-width: 100%;
+
+    position: absolute;
+    /*     background-color: #f6f8ff; */
+
+    border-radius: 0.7rem 0.7rem 4.8rem 0.7rem;
+
+    width: 22.5rem;
+    /*  5.62rem;*/
+    height: 37rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    display: flex;
+    flex-direction: column;
+    /*     justify-content: center; */
+    align-items: center;
 }
 
 #gameBoxPrint {
-   
+
     position: absolute;
-    background-color: #f6f8ff;
+    /*     background-color: #f6f8ff; */
 
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
 
@@ -60,14 +82,24 @@ body {
     align-items: center;
 
     /* Sombra sobre fondo de la GAMEBOY */
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
 
 /* CONTENEDOR MITAD TOP DEL CUERPO DE LA GAMEBOY */
 
 #gameBoxToptop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
+    background-color: rgba(216, 220, 232, 0.5);
+
+    position: absolute;
+    background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
+    background-blend-mode:color-burn;
+
+    background-size: cover;
+    display: block;
+    max-width: 100%;
 
     width: 22.5rem;
     /*  5.62rem;*/
@@ -130,7 +162,13 @@ body {
 #gameBoxTop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
+    background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
+    background-blend-mode:color-burn;
+
+    background-size: cover;
+    display: block;
+    max-width: 100%;
 
     width: 22.5rem;
     /*  5.62rem;*/
@@ -145,9 +183,9 @@ body {
     border-radius: 0.1rem 0.1rem 0rem 0rem;
     transform: translate(0, 1.4rem);
 
-       border-style: dotted;
+    /* border-style: dotted;
     border-width: 0.1rem;
-    border-color: red; 
+    border-color: red; */
 
 }
 
@@ -258,7 +296,7 @@ body {
 #txtBottom1 {
     position: absolute;
     color: blue;
-    font-stretch:2rem;
+    font-stretch: 2rem;
     font-size: 0.85rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
@@ -283,23 +321,33 @@ body {
 /* CONTENEDOR MITAD BOTTOM DEL CUERPO DE LA GAMEBOY */
 
 #gameBoxBottom {
+/*     position: absolute;
+    background-color: rgba(216, 220, 232, 0.5); */
+
     position: absolute;
-    background-color: rgba(216,220, 232, 1);
+    background-image: url(../img/texture-1.png);
+    background-color: rgba(216, 220, 232, 1);
+    background-blend-mode:color-burn;
+
+
+    background-size: cover;
+    display: block;
+    max-width: 100%;
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 17.35rem;
+    height: 17.5rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
-    transform: translate(0, 19.65rem);
+    transform: translate(0, 19.55rem);
 
     border-radius: 0rem 0rem 4.8rem 1.2rem;
 
- /*    border-style: dotted;
+    /*    border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -526,7 +574,7 @@ body {
 
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     /*     transform: rotate(160deg); */
-    
+
     /*     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
     border-style: dotted;
     border-width: 0.1rem;
@@ -737,7 +785,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 
     border-style: dotted;
     border-width: 0.1rem;
@@ -763,7 +811,8 @@ body {
     border-width: 0.1rem;
     border-color: rgb(217, 194, 194);
 }
-#speakerL1h{
+
+#speakerL1h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
@@ -775,6 +824,7 @@ body {
 
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
+
 #speakerL2 {
     position: absolute;
     width: 0.5rem;
@@ -794,7 +844,8 @@ body {
     border-width: 0.1rem;
     border-color: red;
 }
-#speakerL2h{
+
+#speakerL2h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
@@ -826,7 +877,8 @@ body {
     border-width: 0.1rem;
     border-color: red;
 }
-#speakerL3h{
+
+#speakerL3h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
@@ -838,6 +890,7 @@ body {
 
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
+
 #speakerL4 {
     position: absolute;
     width: 0.5rem;
@@ -857,7 +910,8 @@ body {
     border-width: 0.1rem;
     border-color: red;
 }
-#speakerL4h{
+
+#speakerL4h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
@@ -869,6 +923,7 @@ body {
 
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
+
 #speakerL5 {
     position: absolute;
     width: 0.5rem;
@@ -888,7 +943,8 @@ body {
     border-width: 0.1rem;
     border-color: red;
 }
-#speakerL5h{
+
+#speakerL5h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
@@ -900,6 +956,7 @@ body {
 
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
+
 #speakerL6 {
     position: absolute;
     width: 0.5rem;
@@ -919,7 +976,8 @@ body {
     border-width: 0.1rem;
     border-color: red;
 }
-#speakerL6h{
+
+#speakerL6h {
     position: absolute;
     width: 0.2rem;
     height: 2.7rem;
