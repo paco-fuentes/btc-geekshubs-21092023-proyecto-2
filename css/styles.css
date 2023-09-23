@@ -30,9 +30,9 @@ body {
     /*     justify-content: center; */
     align-items: center;
 
-    border-style: dotted;
+/*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 
     /* Sombra sobre fondo de la GAMEBOY */
     /*  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
@@ -58,9 +58,9 @@ body {
     /*     justify-content: center; */
     align-items: center;
 
-    border-style: dotted;
+/*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 
 }
 
@@ -106,7 +106,7 @@ body {
 #gameBoxTop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-    /*     background-color: rgba(216,220, 232, 1); */
+    background-color: rgba(216,220, 232, 1);
 
     width: 22.5rem;
     /*  5.62rem;*/
@@ -121,9 +121,9 @@ body {
     border-radius: 0.2rem 0.2rem 0rem 0rem;
     transform: translate(0, 1.5rem);
 
-    border-style: dotted;
+/*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 
 }
 
@@ -226,6 +226,28 @@ body {
     border-width: 0.1rem;
     border-color: red; */
 
+}
+#txtBottom1{
+    position: absolute;
+    color: blue;
+    font-size: 0.85rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* width: 0.3rem; */
+    /* height: 0.3rem; */
+
+    transform: translate(-7.5rem, 6.8rem);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+#txtBottom2{
+    position: absolute;
+    color: blue;
+    font-size: 0.85rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* width: 0.3rem; */
+    /* height: 0.3rem; */
+
+    transform: translate(-3.6rem, 6.8rem);
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
 /* CONTENEDOR MITAD BOTTOM DEL CUERPO DE LA GAMEBOY */
