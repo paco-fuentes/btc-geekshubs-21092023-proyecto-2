@@ -13,6 +13,8 @@ body {
     align-items: center;
 }
 
+/* CONTENEDOR DE MAIN QUE CONTIENE TODA LA GAMEBOY */
+
 #gameBoxInv {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: relative;
@@ -33,22 +35,86 @@ body {
     border-color: red;
 }
 
-#gameBoxTop {
+/* CONTENEDOR MITAD TOP DEL CUERPO DE LA GAMEBOY */
+
+#gameBoxToptop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
     background-color: rgba(216,220, 232, 1);
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 23.5rem;
+    height: 1.2rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    border-radius: 0.7rem 0.7rem 0.2rem 0.2rem; 
+    transform: translate(0, 0rem);
 
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
 
-    border-radius: 1.2rem 1.2rem 0rem 0rem; 
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+    
+}
+
+#lineaTop{
+
+    position: absolute;
+    background-color: rgba(216,220, 232, 1);
+    width: 22.3rem;
+    height: 0.3rem;
+    
+    transform: translate(0, 1.2rem);
+
+    box-shadow: inset 0.1em 0.1em  0.15rem 0.01rem;
+
+}
+#lineaTopL{
+
+    position: absolute;
+    background-color: rgba(216,220, 232, 1);
+    width: 0.3rem;
+    height: 1.3rem;
+    
+    transform: translate(10rem, 0rem);
+
+    box-shadow: inset 0.1em 0.1em  0.15rem 0.01rem;
+
+}
+#lineaTopR{
+
+    position: absolute;
+    background-color: rgba(216,220, 232, 1);
+    width: 0.3rem;
+    height: 1.3rem;
+    
+    transform: translate(-10rem, 0);
+
+    box-shadow: inset 0.1em 0.1em  0.15rem 0.01rem;
+
+}
+
+#gameBoxTop {
+    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
+    position: absolute;
+/*     background-color: rgba(216,220, 232, 1); */
+
+    width: 22.5rem;
+    /*  5.62rem;*/
+    height: 19rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.2rem 0.2rem 0rem 0rem; 
+    transform: translate(0, 1.5rem);
 
     border-style: dotted;
     border-width: 0.1rem;
@@ -61,43 +127,43 @@ body {
 #marco {
     position: absolute;
     background-color:  rgba(100, 111, 120, 1);
-    width: 18.75rem;
-    height: 15.75rem;
+    width: 18.80rem;
+    height: 14.50rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translate(0%, 23%);
+    transform: translate(0, 0);
 
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem; 
 
     box-shadow: inset 0.1em 0.1em 1rem 1rem;
     
-    border-style: dotted;
+/*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 }
 
 #marcoSombra {
     position: absolute;
     background-color:  rgba(100, 111, 120, 1);
-    width: 18.60rem;
-    height: 15.60rem;
+    width: 18.80rem;
+    height: 14.50rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translate(0%, 0%);
+    transform: translate(0, 0);
 
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem; 
 
     box-shadow:  -0.1em -0.1em  0.2rem 0.1rem rgb(51, 56, 61);
-
+/* 
     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 }
 
 #pantalla {
@@ -110,28 +176,29 @@ body {
     /* inset | offset-x | offset-y | color */
     box-shadow: inset 0.2em 0.1em 0.4rem 0.07rem;
 
-    border-style: dotted;
+/*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 
 }
 
+/* CONTENEDOR MITAD BOTTOM DEL CUERPO DE LA GAMEBOY */
 
 #gameBoxBottom {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-    background-color: rgba(216,220, 232, 1);
+/*     background-color: rgba(216,220, 232, 1); */
 
     width: 22.5rem;
     /*  5.62rem;*/
-    height: 13.5rem;
+    height: 16.5rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
 
     display: flex;
     flex-direction: column;
 /*     justify-content: center;
     align-items: center; */
-    transform: translate(0, 23.5rem);
+    transform: translate(0, 20.5rem);
 
     border-radius: 0rem 0rem 4.8rem 1.2rem; 
 
