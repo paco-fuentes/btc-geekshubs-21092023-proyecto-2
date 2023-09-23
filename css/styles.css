@@ -30,7 +30,7 @@ body {
     /*     justify-content: center; */
     align-items: center;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 
@@ -58,7 +58,7 @@ body {
     /*     justify-content: center; */
     align-items: center;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 
@@ -106,7 +106,7 @@ body {
 #gameBoxTop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-    background-color: rgba(216,220, 232, 1);
+    background-color: rgba(216, 220, 232, 1);
 
     width: 22.5rem;
     /*  5.62rem;*/
@@ -121,7 +121,7 @@ body {
     border-radius: 0.2rem 0.2rem 0rem 0rem;
     transform: translate(0, 1.5rem);
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 
@@ -171,7 +171,7 @@ body {
     border-color: red; */
 }
 
-#led{
+#led {
     position: absolute;
     background-color: rgb(49, 5, 5);
     width: 0.4rem;
@@ -181,7 +181,7 @@ body {
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
-#ledTop{
+#ledTop {
     position: absolute;
     background-color: red;
     width: 0.3rem;
@@ -190,28 +190,31 @@ body {
     transform: translate(-8rem, -1.8rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
-#ledTxt{
+
+#ledTxt {
     position: absolute;
     color: white;
     font-size: 0.45rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
 
     transform: translate(-7.5rem, -1rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
-#topTxt{
+
+#topTxt {
     position: absolute;
     color: white;
     font-size: 0.45rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
 
     transform: translate(2rem, -6.3rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
+
 #pantalla {
     position: absolute;
     background-color: rgb(138, 160, 44, 1);
@@ -227,22 +230,24 @@ body {
     border-color: red; */
 
 }
-#txtBottom1{
+
+#txtBottom1 {
     position: absolute;
     color: blue;
     font-size: 0.85rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
 
     transform: translate(-7.5rem, 6.8rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
-#txtBottom2{
+
+#txtBottom2 {
     position: absolute;
     color: blue;
     font-size: 0.85rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
 
@@ -475,22 +480,71 @@ body {
 
 /* -----------------START / SELECT-------------------------------- */
 
+#startMarcoPos{
+    transform: translate(6rem, 6rem);
+}
+
 #startMarco {
     position: absolute;
     width: 6rem;
     height: 6rem;
-    transform: translate(6rem, 6rem);
+    /*     transform: translate(6rem, 6rem); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*     align-items: center; */
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+
+
+}
+
+#start {
+    position: absolute;
+    width: 2.5rem;
+    height: 0.4rem;
+    transform: translate(0rem, 0rem);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    /*     transform: rotate(160deg); */
+
     border-style: dotted;
     border-width: 0.1rem;
     border-color: red;
 }
 
+#select {
+    position: absolute;
+    width: 2.5rem;
+    height: 0.4rem;
+    transform: translate(3.4rem, 0rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+}
+
+.rotated {
+    transform: rotate(160deg) !important;
+}
 
 
 /* ----------------Código David----------------------------------------  */
