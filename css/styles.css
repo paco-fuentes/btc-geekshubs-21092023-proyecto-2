@@ -262,7 +262,7 @@ body {
     background-color: rgb(46, 78, 240);
     width: 3rem;
     height: 0.13rem;
-    transform: translate(7.55rem, -7rem);
+    transform: translate(7.55rem, -7.15rem);
 }
 
 
@@ -726,6 +726,24 @@ body {
 
 }
 
+#botonesMarcoPan{
+    position: absolute;
+    width: 7.8rem;
+    height: 3.6rem;
+    transform: translate(-1.6rem, -1rem);
+    border-radius: 3rem 3rem 3rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*     align-items: center; */
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red;
+
+}
+
 #botonA {
     position: absolute;
     width: 3rem;
@@ -886,12 +904,10 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: rgb(217, 194, 194);
+   
 }
 
 #speakerL1h {
@@ -919,12 +935,9 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red;
 }
 
 #speakerL2h {
@@ -952,12 +965,9 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red;
 }
 
 #speakerL3h {
@@ -985,12 +995,10 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red;
+
 }
 
 #speakerL4h {
@@ -1018,12 +1026,10 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red;
+   
 }
 
 #speakerL5h {
@@ -1051,12 +1057,10 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    background-color: rgba(216, 220, 232, 1);
+    background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red;
+
 }
 
 #speakerL6h {
