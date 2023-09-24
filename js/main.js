@@ -8,9 +8,8 @@ console.log("----------------------------------------------------------------");
 
 /* ------------ Código David Mod ---------------- */
 
-/* 
 
-let pantalla = document.getElementById("screen");
+let pantalla = document.getElementById("actionScreen");
 
 
 
@@ -19,17 +18,17 @@ document.addEventListener("click", (e) => {
     let lastState;
     let stateOn;
 
-    if (e.target.id === 'botA') {
+    if (e.target.id === 'actionA') {
 
         // pantalla.style.backgroundColor = "red";
         pantalla.style.backgroundImage = "url('img/kawai.jpg')";
 
-    } else if (e.target.id === 'botB') {
+    } else if (e.target.id === 'actionB') {
 
         // pantalla.style.backgroundColor = "grey";
         pantalla.style.backgroundImage = "url('img/bear.jpg')";
 
-    } else if (e.target.id === 'start') {
+    } else if (e.target.id === 'actionStart') {
 
         // pantalla.style.backgroundColor = "grey";
         pantalla.style.backgroundImage = "url('img/original.jpg')";
@@ -58,7 +57,7 @@ document.addEventListener("click", (e) => {
 
 });
 
-*/
+
 
 /* -------------FIN CODIGO DAVID MOD----------------- */
 

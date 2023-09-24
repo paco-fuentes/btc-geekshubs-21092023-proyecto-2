@@ -1115,10 +1115,23 @@ body {
     position: absolute;
     width: 11.75rem;
     height: 10.75rem;
+    border-radius: 0.1em;
     transform: translate(0rem, 4.16rem);
-    /* background-size: cover; */
+    background-size: cover;
     background-color: red;
 }
+
+.black {
+    width: 11.75rem;
+    height: 10.75rem;
+
+    background-color: black;
+
+    border-radius: 0.1em;
+
+    margin-bottom: 2em;
+}
+
 
 #actionOnOff{
     position: absolute;
