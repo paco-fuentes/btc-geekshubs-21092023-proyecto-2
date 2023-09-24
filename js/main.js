@@ -19,42 +19,36 @@ document.addEventListener("click", (e) => {
     }
 
 
-
     if (stateOn == true && e.target.id === 'actionOnOff') {
-
         
         lastState = false;
 
         ledTop.style.backgroundColor = "black";
-        pantalla.style.backgroundImage = "url(../img/off-1.png)";
+        pantalla.style.backgroundImage = "";
 
     };
 
         if (stateOn == true && e.target.id === 'actionA') {
 
-            // pantalla.style.backgroundColor = "red";
-            pantalla.style.backgroundImage = "url(../img/a-1.png)";
-    
+            pantalla.style.backgroundImage = "url('./img/a-1.png')";
+
         } 
         
         if (stateOn == true && e.target.id === 'actionB') {
     
-            // pantalla.style.backgroundColor = "grey";
-            pantalla.style.backgroundImage = "url(../img/b-1.png)";
+            pantalla.style.backgroundImage = "url('./img/b-1.png')";
     
         } 
         
         if (stateOn == true && e.target.id === 'actionStart') {
     
-            // pantalla.style.backgroundColor = "grey";
-            pantalla.style.backgroundImage = "url(../img/start-1.png)";
+            pantalla.style.backgroundImage = "url('./img/start-1.png')";
     
         } 
         
         if (stateOn == true && e.target.id === 'actionSelect') {
     
-            // pantalla.style.backgroundColor = "grey";
-            pantalla.style.backgroundImage = "url(../img/select-1.png)";
+            pantalla.style.backgroundImage = "url('./img/select-1.png')";
     
         } 
 
@@ -65,7 +59,7 @@ document.addEventListener("click", (e) => {
         lastState = true;
 
         ledTop.style.backgroundColor = "red";
-        pantalla.style.backgroundImage = "url(../img/on-1.png)";
+        pantalla.style.backgroundImage = "url('./img/on-1.png')";
 
     };
 
