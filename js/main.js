@@ -26,7 +26,7 @@ document.addEventListener("click", (e) => {
         lastState = false;
 
         ledTop.style.backgroundColor = "black";
-        pantalla.style.backgroundImage = "url(../img/)";
+        pantalla.style.backgroundImage = "url(../img/off-1.png)";
 
     };
 
