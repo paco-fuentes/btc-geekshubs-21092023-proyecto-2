@@ -12,14 +12,13 @@ console.log("----------------------------------------------------------------");
 let pantalla = document.getElementById("actionScreen");
 
 
+let lastState = true;
+let stateOn = false;
 
 document.addEventListener("click", (e) => {
 
-    let lastState = true;
-    let stateOn = false;
-
-    if (stateOn!=lastState){
-        stateOn=false;
+    if (stateOn != lastState) {
+        stateOn = lastState;
     }
 
     if (e.target.id === 'actionA') {
@@ -44,19 +43,19 @@ document.addEventListener("click", (e) => {
 
     } else if (stateOn == false && e.target.id === 'actionOnOff') {
 
-        stateOn = true;
-        lastState = false;
+        /* stateOn = true; */
+        lastState = true;
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('../img/on-1-png')";
+        pantalla.style.backgroundImage = "url('../img/on-1.png')";
 
     } else if (stateOn == true && e.target.id === 'actionOnOff') {
 
-        lastState = true;
-        stateOn = false;
+        lastState = false;
+        /*  stateOn = false; */
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('../img/off-1-png')";
+        pantalla.style.backgroundImage = "url('../img/off-1.png')";
 
     };
 

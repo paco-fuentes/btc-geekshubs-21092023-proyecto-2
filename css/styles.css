@@ -1,5 +1,5 @@
 html {
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;  /* Con esta línea se quita el boqueo de txt pequeño reajustado en ios */
 }
 
 body {
