@@ -14,46 +14,55 @@ let pantalla = document.getElementById("actionScreen");
 
 
 document.addEventListener("click", (e) => {
-    
-    let lastState;
-    let stateOn;
+
+    let lastState = true;
+    let stateOn = false;
+
+    if (stateOn!=lastState){
+        stateOn=false;
+    }
 
     if (e.target.id === 'actionA') {
 
         // pantalla.style.backgroundColor = "red";
-        pantalla.style.backgroundImage = "url('img/kawai.jpg')";
+        pantalla.style.backgroundImage = "url('../img/a-1.png')";
 
     } else if (e.target.id === 'actionB') {
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('img/bear.jpg')";
+        pantalla.style.backgroundImage = "url('../img/b-1.png')";
 
     } else if (e.target.id === 'actionStart') {
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('img/original.jpg')";
+        pantalla.style.backgroundImage = "url('../img/start-1.png')";
 
-    } else if (stateOn == false && e.target.id === 'onOff') {
-
-        lastState = false;
-        stateOn = true;
+    } else if (e.target.id === 'actionSelect') {
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('img/images.jpeg')";
+        pantalla.style.backgroundImage = "url('../img/select-1.png')";
 
-    } else if (lastState == false && e.target.id === 'onOff') {
+    } else if (stateOn == false && e.target.id === 'actionOnOff') {
 
-        lastState = true
+        stateOn = true;
+        lastState = false;
+
+        // pantalla.style.backgroundColor = "grey";
+        pantalla.style.backgroundImage = "url('../img/on-1-png')";
+
+    } else if (stateOn == true && e.target.id === 'actionOnOff') {
+
+        lastState = true;
         stateOn = false;
 
         // pantalla.style.backgroundColor = "grey";
-        pantalla.style.backgroundImage = "url('img/10193.png')";
+        pantalla.style.backgroundImage = "url('../img/off-1-png')";
 
     };
 
     console.log(stateOn);
     console.log(lastState);
-    
+
 
 });
 
