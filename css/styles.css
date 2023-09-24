@@ -1,5 +1,6 @@
 html {
-    -webkit-text-size-adjust: 100%;  /* Con esta línea se quita el boqueo de txt pequeño reajustado en ios */
+    -webkit-text-size-adjust: 100%;
+    /* Con esta línea se quita el boqueo de txt pequeño reajustado en ios */
 }
 
 body {
@@ -47,21 +48,24 @@ body {
 
     position: absolute;
     /*     background-color: #f6f8ff; */
-
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
-
     width: 22.1rem;
     /*  5.62rem;*/
     height: 37rem;
     /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     display: flex;
     flex-direction: column;
     /*     justify-content: center; */
     align-items: center;
-
+    /* rgba(240, 46, 170, 0.2) */
+    /* rgba(237, 240, 46, 0.4) */
     /* Sombra sobre fondo de la GAMEBOY */
-    box-shadow: rgba(240, 46, 170, 0.4) 1.5rem 1.5rem, rgba(240, 46, 170, 0.3) 3rem 3rem, rgba(240, 46, 170, 0.2) 4.5rem 4.5rem, rgba(240, 46, 170, 0.1) 6rem 6rem, rgba(240, 46, 170, 0.05) 7.5rem 7.5rem;
+    box-shadow:
+        rgba(240, 46, 170, 0.2) 1.5rem 1.5rem,
+        rgba(240, 46, 170, 0.2) 3rem 3rem,
+        rgba(240, 46, 170, 0.2) 4.5rem 4.5rem,
+        rgba(240, 46, 170, 0.2) 6rem 6rem,
+        rgba(240, 46, 170, 0.2) 7.5rem 7.5rem;
 }
 
 
@@ -1111,7 +1115,7 @@ body {
 
 /* /////////BOTONES JAVASCRIPT///////////// */
 
-#actionScreen{
+#actionScreen {
     position: absolute;
     width: 11.75rem;
     height: 10.75rem;
@@ -1138,7 +1142,7 @@ body {
 }
 
 
-#actionOnOff{
+#actionOnOff {
     position: absolute;
     background-color: red;
     width: 0.8rem;
@@ -1147,7 +1151,7 @@ body {
     border-radius: 50%;
 }
 
-#actionOnOff:active{
+#actionOnOff:active {
     position: absolute;
     background-color: crimson;
     width: 0.8rem;
@@ -1201,7 +1205,7 @@ body {
     border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
 }
 
-#actionBottom:active{
+#actionBottom:active {
     position: absolute;
     background-color: rgba(100, 100, 100, 0.2);
     width: 1.6rem;
