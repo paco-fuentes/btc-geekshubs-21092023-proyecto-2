@@ -226,7 +226,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translate(0, -1rem);
+    transform: translate(0, -0.9rem);
 
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem;
 
