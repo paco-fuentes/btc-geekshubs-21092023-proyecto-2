@@ -1129,9 +1129,27 @@ body {
     border-radius: 50%;
 }
 
+#actionOnOff:active{
+    position: absolute;
+    background-color: crimson;
+    width: 0.8rem;
+    height: 0.8rem;
+    transform: translate(-8.2rem, 7.5rem);
+    border-radius: 50%;
+}
+
 #actionTop {
     position: absolute;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+    width: 1.6rem;
+    height: 2rem;
+    transform: translate(-6.9rem, 20.8rem);
+    border-radius: 0.1rem 0.1rem 0.3rem 0.3rem;
+}
+
+#actionTop:active {
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.2);
     width: 1.6rem;
     height: 2rem;
     transform: translate(-6.9rem, 20.8rem);
@@ -1140,7 +1158,16 @@ body {
 
 #actionRight {
     position: absolute;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+    width: 2rem;
+    height: 1.6rem;
+    transform: translate(-5.1rem, 22.75rem);
+    border-radius: 0.3rem 0.1rem 0.1rem 0.3rem;
+}
+
+#actionRight:active {
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.2);
     width: 2rem;
     height: 1.6rem;
     transform: translate(-5.1rem, 22.75rem);
@@ -1149,7 +1176,16 @@ body {
 
 #actionBottom {
     position: absolute;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+    width: 1.6rem;
+    height: 2rem;
+    transform: translate(-6.9rem, 24.4rem);
+    border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
+}
+
+#actionBottom:active{
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.2);
     width: 1.6rem;
     height: 2rem;
     transform: translate(-6.9rem, 24.4rem);
@@ -1158,20 +1194,45 @@ body {
 
 #actionLeft {
     position: absolute;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
     width: 2rem;
     height: 1.6rem;
     transform: translate(-8.8rem, 22.75rem);
     border-radius: 0.1rem 0.3rem 0.3rem 0.1rem;
 }
 
+#actionLeft:active {
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.2);
+    width: 2rem;
+    height: 1.6rem;
+    transform: translate(-8.8rem, 22.75rem);
+    border-radius: 0.1rem 0.3rem 0.3rem 0.1rem;
+}
 
 #actionA {
     position: absolute;
     width: 3rem;
     height: 3rem;
     transform: translate(7.8rem, 20.4rem);
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
+    /* Sombra invertida */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+#actionA:active {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(7.8rem, 20.4rem);
+    background-color: rgba(100, 100, 100, 0.2);
     /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
     /* Sombra invertida */
 
@@ -1188,7 +1249,7 @@ body {
     width: 3rem;
     height: 3rem;
     transform: translate(4rem, 22.6rem);
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
     /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
     /* Sombra invertida */
 
@@ -1198,7 +1259,23 @@ body {
     align-items: center;
 
     border-radius: 50%;
+}
 
+#actionB:active {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(4rem, 22.6rem);
+    background-color: rgba(100, 100, 100, 0.2);
+    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
+    /* Sombra invertida */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
 }
 
 #actionStart {
@@ -1207,7 +1284,23 @@ body {
     height: 0.6rem;
     transform: translate(-13.55rem, 25.85rem);
     rotate: 330deg;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+#actionStart:active {
+    position: absolute;
+    width: 3rem;
+    height: 0.6rem;
+    transform: translate(-13.55rem, 25.85rem);
+    rotate: 330deg;
+    background-color: rgba(100, 100, 100, 0.2);
 
     display: flex;
     flex-direction: column;
@@ -1223,7 +1316,23 @@ body {
     height: 0.6rem;
     transform: translate(-17rem, 23.85rem);
     rotate: 330deg;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+#actionSelect:active {
+    position: absolute;
+    width: 3rem;
+    height: 0.6rem;
+    transform: translate(-17rem, 23.85rem);
+    rotate: 330deg;
+    background-color: rgba(100, 100, 100, 0.2);
 
     display: flex;
     flex-direction: column;
