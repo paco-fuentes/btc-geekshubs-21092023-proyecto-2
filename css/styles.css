@@ -1,3 +1,7 @@
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -213,14 +217,14 @@ body {
 #lineaRojaTop1 {
     background-color: rgba(240, 46, 170, 1);
     width: 7rem;
-    height: 0.01rem;
-    transform: translate(-5.5rem, -6.43rem);
+    height: 0.05rem;
+    transform: translate(-5.5rem, -6.4rem);
 }
 
 #lineaRojaTop2 {
     background-color: rgba(240, 46, 170, 1);
     width: 3rem;
-    height: 0.01rem;
+    height: 0.05rem;
     transform: translate(14.95rem, 0rem);
 }
 
@@ -228,7 +232,7 @@ body {
     background-color: rgb(46, 78, 240);
     width: 7rem;
     height: 0.2rem;
-    transform: translate(-5.5rem, -6.25rem);
+    transform: translate(-5.5rem, -6.2rem);
 }
 
 #lineaAzulTop2 {
@@ -262,7 +266,7 @@ body {
 #ledTxt {
     position: absolute;
     color: white;
-    font-size: 0.45em;
+    font-size: 0.45rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
@@ -272,9 +276,10 @@ body {
 }
 
 #topTxt {
+    
     position: absolute;
     color: white;
-    font-size: 0.45em;
+    font-size: 0.45rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
@@ -303,13 +308,12 @@ body {
     position: absolute;
     color: blue;
     font-weight: bold;
-    font-stretch: 2em;
-    font-size: 0.85em;
+    font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
 
-    transform: translate(-8.3rem, 7.3rem);
+    transform: translate(-8.3rem, 7.23rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
@@ -317,7 +321,7 @@ body {
     position: absolute;
     color: blue;
     font-weight: lighter;
-    font-size: 1.15em;
+    font-size: 1.15rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
@@ -330,7 +334,7 @@ body {
     position: absolute;
     color: blue;
     font-weight: bold;
-    font-size: 0.40em;
+    font-size: 0.40rem;
     font-family: Arial, Helvetica, sans-serif;
     /* width: 0.3rem; */
     /* height: 0.3rem; */
