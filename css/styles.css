@@ -1,4 +1,4 @@
-html{
+html {
     -webkit-text-size-adjust: 100%;
 }
 
@@ -276,7 +276,7 @@ body {
 }
 
 #topTxt {
-    
+
     position: absolute;
     color: white;
     font-size: 0.45rem;
@@ -287,7 +287,7 @@ body {
     transform: translate(2rem, -6.3rem);
 }
 
-#pantalla {
+#pantallaCSS {
     position: absolute;
     background-color: rgb(138, 160, 44, 1);
     width: 11.75rem;
@@ -678,7 +678,7 @@ body {
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -698,7 +698,7 @@ body {
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -1109,7 +1109,129 @@ body {
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
+/* /////////BOTONES JAVASCRIPT///////////// */
 
+#actionScreen{
+    position: absolute;
+    width: 11.75rem;
+    height: 10.75rem;
+    transform: translate(0rem, 4.16rem);
+    /* background-size: cover; */
+    background-color: red;
+}
+
+#actionOnOff{
+    position: absolute;
+    background-color: red;
+    width: 0.8rem;
+    height: 0.8rem;
+    transform: translate(-8.2rem, 7.5rem);
+    border-radius: 50%;
+}
+
+#actionTop {
+    position: absolute;
+    background-color: red;
+    width: 1.6rem;
+    height: 2rem;
+    transform: translate(-6.9rem, 20.8rem);
+    border-radius: 0.1rem 0.1rem 0.3rem 0.3rem;
+}
+
+#actionRight {
+    position: absolute;
+    background-color: red;
+    width: 2rem;
+    height: 1.6rem;
+    transform: translate(-5.1rem, 22.75rem);
+    border-radius: 0.3rem 0.1rem 0.1rem 0.3rem;
+}
+
+#actionBottom {
+    position: absolute;
+    background-color: red;
+    width: 1.6rem;
+    height: 2rem;
+    transform: translate(-6.9rem, 24.4rem);
+    border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
+}
+
+#actionLeft {
+    position: absolute;
+    background-color: red;
+    width: 2rem;
+    height: 1.6rem;
+    transform: translate(-8.8rem, 22.75rem);
+    border-radius: 0.1rem 0.3rem 0.3rem 0.1rem;
+}
+
+
+#actionA {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(7.8rem, 20.4rem);
+    background-color: red;
+    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
+    /* Sombra invertida */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+#actionB {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(4rem, 22.6rem);
+    background-color: red;
+    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
+    /* Sombra invertida */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+}
+
+#actionStart {
+    position: absolute;
+    width: 3rem;
+    height: 0.6rem;
+    transform: translate(-13.55rem, 25.85rem);
+    rotate: 330deg;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+#actionSelect {
+    position: absolute;
+    width: 3rem;
+    height: 0.6rem;
+    transform: translate(-17rem, 23.85rem);
+    rotate: 330deg;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
 
 
 /* ----------CLASS PARA ROTACION-------------- */
@@ -1119,7 +1241,7 @@ body {
 }
 
 
-/* ----------------Código David----------------------------------------  */
+/* ----------------Código David Mod----------------------------------------  */
 
 /* 
 body {
