@@ -31,9 +31,9 @@ body {
     align-items: center;
 
 
-    border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
-    border-color: red;
+    border-color: red; */
 
 
 }
@@ -57,33 +57,7 @@ body {
     align-items: center;
 
     /* Sombra sobre fondo de la GAMEBOY */
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
-
-#gameBoxTexture {
-    /*     .grit {
-        -webkit-mask-image: url("../img/texture-1.png");
-        mask-image: url("../img/texture-1.png");
-      } */
-
-    background-size: cover;
-    display: block;
-    max-width: 100%;
-
-    position: absolute;
-    /*     background-color: #f6f8ff; */
-
-    border-radius: 0.7rem 0.7rem 4.8rem 0.7rem;
-
-    width: 22.5rem;
-    /*  5.62rem;*/
-    height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
-    display: flex;
-    flex-direction: column;
-    /*     justify-content: center; */
-    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 1.5rem 1.5rem, rgba(240, 46, 170, 0.3) 3rem 3rem, rgba(240, 46, 170, 0.2) 4.5rem 4.5rem, rgba(240, 46, 170, 0.1) 6rem 6rem, rgba(240, 46, 170, 0.05) 7.5rem 7.5rem;
 }
 
 
@@ -92,9 +66,7 @@ body {
 #gameBoxToptop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-    background-color: rgba(216, 220, 232, 0.5);
 
-    position: absolute;
     background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
     background-blend-mode: color-burn;
@@ -129,9 +101,9 @@ body {
     width: 22.1rem;
     height: 0.3rem;
 
-    transform: translate(0, 1.2rem);
+    transform: translate(0rem, 1.2rem);
 
-    box-shadow: inset 0.0em 0.03em 0.15rem 0.03rem;
+    box-shadow: inset 0.0rem 0.03rem 0.15rem 0.03rem;
 
 }
 
@@ -144,7 +116,7 @@ body {
 
     transform: translate(10rem, 0rem);
 
-    box-shadow: inset 0.03em 0em 0.1rem 0.03rem;
+    box-shadow: inset 0.03rem 0rem 0.1rem 0.03rem;
     border-radius: -0.1rem -0.1rem 0.1rem 0.1rem;
 
 }
@@ -158,14 +130,14 @@ body {
 
     transform: translate(-10rem, 0rem);
 
-    box-shadow: inset 0.03em 0em 0.1rem 0.03rem;
+    box-shadow: inset 0.03rem 0rem 0.1rem 0.03rem;
     border-radius: -0.1rem -0.1rem 0.1rem 0.1rem;
 
 }
 
 #gameBoxTop {
     /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
-    position: absolute;
+    position: relative;
     background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
     background-blend-mode: color-burn;
@@ -209,7 +181,7 @@ body {
 
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem;
 
-    box-shadow: inset 0.1em 0.1em 0.4rem 0.010rem;
+    box-shadow: inset 0.1rem 0.1rem 0.4rem 0.010rem;
 
     /*     border-style: dotted;
     border-width: 0.1rem;
@@ -217,6 +189,7 @@ body {
 }
 
 #marcoTop {
+    
     position: absolute;
     background-color: rgba(120, 131, 140, 1);
     width: 19.60rem;
@@ -237,32 +210,32 @@ body {
     border-color: red; */
 }
 
-#lineaRojaTop1{
+#lineaRojaTop1 {
     background-color: rgba(240, 46, 170, 1);
-    width: 7em;
-    height: 0.01em;
-    transform: translate(-5.5em, -7.3em);
+    width: 7rem;
+    height: 0.01rem;
+    transform: translate(-5.5rem, -6.43rem);
 }
 
-#lineaRojaTop2{
+#lineaRojaTop2 {
     background-color: rgba(240, 46, 170, 1);
-    width: 3em;
-    height: 0.01em;
-    transform: translate(7.55em, -7.3em);
+    width: 3rem;
+    height: 0.01rem;
+    transform: translate(14.95rem, 0rem);
 }
 
-#lineaAzulTop1{
+#lineaAzulTop1 {
     background-color: rgb(46, 78, 240);
-    width: 7em;
-    height: 0.1em;
-    transform: translate(-5.5em, -7em);
+    width: 7rem;
+    height: 0.2rem;
+    transform: translate(-5.5rem, -6.25rem);
 }
 
-#lineaAzulTop2{
+#lineaAzulTop2 {
     background-color: rgb(46, 78, 240);
-    width: 3em;
-    height: 0.13em;
-    transform: translate(7.55em, -7.15em);
+    width: 3rem;
+    height: 0.2rem;
+    transform: translate(14.95rem, 0rem);
 }
 
 
@@ -307,7 +280,6 @@ body {
     /* height: 0.3rem; */
 
     transform: translate(2rem, -6.3rem);
-    border-radius: 1rem 1rem 1rem 1rem;
 }
 
 #pantalla {
@@ -395,8 +367,8 @@ body {
     transform: translate(0, 19.55rem);
 
     border-radius: 0rem 0rem 4.8rem 1.2rem;
-    
-    
+
+
     /*    border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
@@ -719,12 +691,12 @@ body {
     justify-content: center;
     /*     align-items: center; */
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
 
-#botonesMarcoPan{
+#botonesMarcoPan {
     position: absolute;
     width: 7.8rem;
     height: 3.6rem;
@@ -737,7 +709,7 @@ body {
     /*     align-items: center; */
     background: linear-gradient(120deg, #544e4e92 1%, #e8dfdf64 20%, #e8dfdf64 80%, #ffffff5b 100%);
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 
@@ -758,7 +730,7 @@ body {
 
     border-radius: 50%;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -778,7 +750,7 @@ body {
 
     border-radius: 50%;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -799,7 +771,7 @@ body {
     border-radius: 50%;
     /*     transform: rotate(160deg); */
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -809,7 +781,7 @@ body {
     width: 2.9rem;
     height: 2.9rem;
     transform: translate(3.1rem, -1rem);
-    background-color: purple;
+    background: radial-gradient(circle at 85%, rgb(213, 2, 213), rgb(193, 2, 193) 50%, rgb(222, 117, 222) 100%, rgb(239, 6, 239) 99.9%);
 
     display: flex;
     flex-direction: column;
@@ -818,7 +790,7 @@ body {
 
     border-radius: 50%;
 
-/*     border-style: dotted;
+    /*     border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
 }
@@ -883,8 +855,8 @@ body {
     height: 6rem;
 
     /* background-color: black; */
- 
-    border-radius: 0rem 0rem 4.8rem 0rem; 
+
+    border-radius: 0rem 0rem 4.8rem 0rem;
 
     /* border-style: dotted;
     border-width: 0.1rem;
@@ -892,15 +864,15 @@ body {
 
     /* box-shadow: inset 0.1rem 0.1rem 1rem 1rem; */
 
- /*    background: linear-gradient(330deg, blue, rgba(255, 255, 255, 0));; */
+    /*    background: linear-gradient(330deg, blue, rgba(255, 255, 255, 0));; */
     background: linear-gradient(330deg, #998d8d3b 35%, #e8dfdf64 38%, #ffffff00 41%);
 
 
     /* Agrega una máscara para definir la forma */
-/*      -webkit-mask: radial-gradient(circle at bottom, transparent 50%, black 100%);
+    /*      -webkit-mask: radial-gradient(circle at bottom, transparent 50%, black 100%);
     mask: radial-gradient(circle at bottom, transparent 50%, black 100%);  */
-    
- }
+
+}
 
 /* -----------------SPEAKER---------------------- */
 
@@ -937,9 +909,9 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
-   
+
 }
 
 #speakerL1h {
@@ -952,7 +924,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
 
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 #speakerL2 {
@@ -968,7 +940,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
 }
 
@@ -981,8 +953,8 @@ body {
     background-color: black;
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-    
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 #speakerL3 {
@@ -998,7 +970,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
 }
 
@@ -1012,7 +984,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
 
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 #speakerL4 {
@@ -1028,7 +1000,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
 
 }
@@ -1043,7 +1015,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
 
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 #speakerL5 {
@@ -1059,9 +1031,9 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
-   
+
 }
 
 #speakerL5h {
@@ -1074,7 +1046,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
 
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 #speakerL6 {
@@ -1090,7 +1062,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 
 
 }
@@ -1105,7 +1077,7 @@ body {
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
 
-    box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 
