@@ -42,13 +42,13 @@ document.addEventListener("click", (e) => {
         
         if (stateOn == true && e.target.id === 'actionStart') {
     
-            pantalla.style.backgroundImage = "url('./img/start-1.png')";
+            pantalla.style.backgroundImage = "url('./img/select-1.png')";
     
         } 
         
         if (stateOn == true && e.target.id === 'actionSelect') {
     
-            pantalla.style.backgroundImage = "url('./img/select-1.png')";
+            pantalla.style.backgroundImage = "url('./img/start-1.png')";
     
         } 
 
