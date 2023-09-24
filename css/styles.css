@@ -38,6 +38,28 @@ body {
 
 }
 
+
+#gameBoxPrint {
+
+    position: absolute;
+    /*     background-color: #f6f8ff; */
+
+    border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
+
+    width: 22.1rem;
+    /*  5.62rem;*/
+    height: 37rem;
+    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
+
+    display: flex;
+    flex-direction: column;
+    /*     justify-content: center; */
+    align-items: center;
+
+    /* Sombra sobre fondo de la GAMEBOY */
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
 #gameBoxTexture {
     /*     .grit {
         -webkit-mask-image: url("../img/texture-1.png");
@@ -64,26 +86,6 @@ body {
     align-items: center;
 }
 
-#gameBoxPrint {
-
-    position: absolute;
-    /*     background-color: #f6f8ff; */
-
-    border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
-
-    width: 22.1rem;
-    /*  5.62rem;*/
-    height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
-    display: flex;
-    flex-direction: column;
-    /*     justify-content: center; */
-    align-items: center;
-
-    /* Sombra sobre fondo de la GAMEBOY */
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
 
 /* CONTENEDOR MITAD TOP DEL CUERPO DE LA GAMEBOY */
 
@@ -364,6 +366,7 @@ body {
 
     border-radius: 0rem 0rem 4.8rem 1.2rem;
 
+    
     /*    border-style: dotted;
     border-width: 0.1rem;
     border-color: red; */
@@ -787,6 +790,38 @@ body {
     border-color: red;
 }
 
+/* --------------- BORDE SPEAKER ------------------ */
+
+#gameBoxBottomBordePos {
+    transform: translate(-2.8rem, 11.5rem);
+}
+
+#gameBoxBottomBorde {
+
+    position: absolute;
+    width: 14rem;
+    height: 6rem;
+
+    /* background-color: black; */
+ 
+    border-radius: 0rem 0rem 4.8rem 0rem; 
+
+    /* border-style: dotted;
+    border-width: 0.1rem;
+    border-color: red; */
+
+    /* box-shadow: inset 0.1rem 0.1rem 1rem 1rem; */
+
+ /*    background: linear-gradient(330deg, blue, rgba(255, 255, 255, 0));; */
+    background: linear-gradient(330deg, #998d8d3b 35%, #e8dfdf64 38%, #ffffff00 41%);
+
+
+    /* Agrega una máscara para definir la forma */
+/*      -webkit-mask: radial-gradient(circle at bottom, transparent 50%, black 100%);
+    mask: radial-gradient(circle at bottom, transparent 50%, black 100%);  */
+    
+ }
+
 /* -----------------SPEAKER---------------------- */
 
 #speakerMarcoPos {
@@ -821,7 +856,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -854,7 +889,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -871,7 +906,7 @@ body {
     background-color: black;
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
 
@@ -887,7 +922,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -920,7 +955,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -953,7 +988,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -986,7 +1021,7 @@ body {
     /*     align-items: center; */
 
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
+    background-color: rgba(216, 220, 232, 1);
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 
     border-style: dotted;
@@ -1007,41 +1042,7 @@ body {
     box-shadow: inset 0.07em 0.07em 0.2rem 0.01rem;
 }
 
-/* --------------- BORDE SPEAKER ------------------ */
 
-#gameBoxBottomBordePos {
-    transform: translate(2.8rem, 14rem);
-}
-
-#gameBoxBottomBorde {
-
-    position: absolute;
-    /* background-image: url(../img/texture-1.png); */
-    background-color: rgba(166, 170, 202, 0.8);
-    background-blend-mode:exclusion; /* Utilizar el modo de mezcla multiply */
-    /*         background-blend-mode:color-burn;
-    
-    
-        background-size: cover;
-        display: block;
-        max-width: 100%; */
-
-
-    position: absolute;
-    width: 14rem;
-    height: 6rem;
-
-    /* border-radius: 0rem 0rem 4.8rem 1.2rem; */
-
-/*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
-    /* Agrega una máscara para definir la forma */
-/*     -webkit-mask: radial-gradient(circle at bottom, transparent 50%, black 100%);
-    mask: radial-gradient(circle at bottom, transparent 50%, black 100%); */
-    
-}
 
 
 /* ----------CLASS PARA ROTACION-------------- */
