@@ -86,6 +86,12 @@ document.addEventListener("click", (e) => {
         ledTop.style.backgroundColor = "red";
         pantalla.style.backgroundImage = "url('./img/on-1-trans.png')";
 
+        // Obtén el elemento de audio
+        var audio = document.getElementById('myAudio');
+
+        // Reproduce el sonido
+        audio.play();
+
     };
 
     console.log(`Estado anteior: ${stateOn}`);
