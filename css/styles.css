@@ -29,12 +29,12 @@ body {
 }
 
 #titulo {
-    transform: translate(0rem, -5rem);
+    transform: translate(0rem, -2rem);
     text-align: center;
 }
 
 #subtitulo {
-    transform: translate(0rem, -4rem);
+    transform: translate(0rem, 36.5rem);
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
     color: rgb(240, 47, 182);
     font-family: classicGameboy;
     text-align: center;
-    transform: translate(-25rem, -2rem);
+    transform: translate(-24rem, 1em);
     width: 20rem;
     /*  5.62rem;*/
     height: 10rem;
@@ -50,10 +50,10 @@ body {
 }
 
 #descripcion {
-    color: rgb(43, 147, 226);
+    color: rgb(74, 255, 50);
     font-family: classicGameboy;
     text-align: left;
-    transform: translate(-25rem, -0.5rem);
+    transform: translate(25rem, -10rem);
     width: 20rem;
     /*  5.62rem;*/
     height: 37rem;
@@ -103,11 +103,11 @@ body {
     /* rgba(237, 240, 46, 0.4) */
     /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
-        rgba(240, 46, 170, 0.2) 22rem 0rem,
-        rgba(240, 46, 170, 0.2) 23.5rem 0rem,
+        rgba(240, 46, 170, 0.2) 24rem 0rem,
+        rgba(240, 46, 170, 0.2) 24.5rem 0rem,
         rgba(240, 46, 170, 0.2) 25rem 0rem,
-        rgba(240, 46, 170, 0.2) 26.5rem 0rem,
-        rgba(240, 46, 170, 0.2) 28rem 0rem;
+        rgba(240, 46, 170, 0.2) 25.5rem 0rem,
+        rgba(240, 46, 170, 0.2) 26rem 0rem;
 }
 
 #gameBoxPrint2 {
@@ -127,11 +127,11 @@ body {
     /* rgba(237, 240, 46, 0.4) */
     /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
-        rgb(59, 240, 46, 0.05) -20rem 0rem,
-        rgba(59, 240, 46, 0.1) -21.5rem 0rem,
-        rgba(59, 240, 46, 0.3) -23rem 0rem,
+        rgb(59, 240, 46, 0.05) -23rem 0rem,
+        rgba(59, 240, 46, 0.1) -23.5rem 0rem,
+        rgba(59, 240, 46, 0.3) -24rem 0rem,
         rgba(59, 240, 46, 0.4) -24.5rem 0rem,
-        rgba(59, 240, 46, 0.5) -26rem 0rem;
+        rgba(59, 240, 46, 0.5) -25rem 0rem;
 }
 
 #gameBoxPrint3 {
@@ -175,7 +175,7 @@ body {
     /* rgba(237, 240, 46, 0.4) */
     /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
-        rgba(224, 240, 46, 0.25) 0rem 6rem,
+        rgba(53, 46, 240, 0.25) 0rem 6rem,
         rgba(53, 46, 240, 0.30) 0rem 5rem,
         rgba(53, 46, 240, 0.35) 0rem 4rem,
         rgba(53, 46, 240, 0.40) 0rem 3rem,
