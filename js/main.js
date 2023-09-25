@@ -106,9 +106,3 @@ document.addEventListener("click", (e) => {
 
 });
 
-
-
-/* -------------FIN CODIGO DAVID MOD----------------- */
-
-
-/////QUIZÁ SEA POSIBLE HACER UN SWITCH PAR ACAMBIAR DE ESTADO Y USARLO PARA EL ON / OFF
