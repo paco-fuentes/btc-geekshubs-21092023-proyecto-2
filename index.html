@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAME BOY</title>
+    <title>GAME BOY Classic</title>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/early-gameboy.ttf" type="font/ttf">
+
 
     <link href="./css/styles.css" rel="stylesheet">
 </head>
@@ -12,9 +16,24 @@
 <body>
 
 
+
+
     <div id="gameBoxInv">
-        <div id="gameBoxPrint1"></div>
-       <!--  <div id="gameBoxPrint2"></div> -->
+        <div id="gameBoxPrint3"></div>
+        <div id="gameBoxPrint2"></div>
+        <div id="gameBoxPrint1">
+            <div id="titulo" class="txt1"> < GAME BOY Classic < </div>
+            <div id="subtitulo" class="txt1">[ | 1989 [<br></div>
+            <div id="instrucciones" class="txt1"> ) ) ) haz click sobre el led para encender la GAMEBOY y luego pulsa los botones para ver distintas pantallas ~ </div>
+            <div id="descripcion">
+                "La Game Boy, lanzada por Nintendo en 1989, es una consola portatil iconica. Su pantalla monocromatica,
+                juegos en cartuchos intercambiables y duradera bateria la hicieron destacar. Un titulo emblematico de la
+                Game Boy fue "The Legend of Zelda: Link's Awakening," que desempeño un papel importante en su
+                popularidad y legado en la industria de los videojuegos."
+            </div>
+
+        </div>
+         
         <div id="gameBoxToptop">
             <div id="lineaTop"></div>
             <div id="lineaTopL"></div>
@@ -28,8 +47,12 @@
                 <div id="ledTop"></div>
                 <div id="ledTxt">BATTERY</div>
                 <div id="topTxt">DOT MATRIX WITH STEREO SOUND</div>
-                <div id="lineaRojaTop1"><div id="lineaRojaTop2"></div></div>
-                <div id="lineaAzulTop1"><div id="lineaAzulTop2"></div></div>
+                <div id="lineaRojaTop1">
+                    <div id="lineaRojaTop2"></div>
+                </div>
+                <div id="lineaAzulTop1">
+                    <div id="lineaAzulTop2"></div>
+                </div>
             </div>
             <div id="pantallaCSS"></div>
             <div id="txtBottom1">Nintendo</div>
@@ -103,9 +126,9 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        
+
         <div id="actionScreen" class="black"></div>
         <audio id="myAudio" src="./assets/gameboy-start-up-sound_1.wav" preload="auto"></audio>
         <audio id="myAudio2" src="./assets/gameboy-off-sound.wav" preload="auto"></audio>
