@@ -26,6 +26,12 @@ document.addEventListener("click", (e) => {
         ledTop.style.backgroundColor = "black";
         pantalla.style.backgroundImage = "";
 
+        // Obtén el elemento de audio
+        var audio = document.getElementById('myAudio2');
+
+        // Reproduce el sonido
+        audio.play();
+
     };
 
     if (stateOn == true && e.target.id === 'actionTop') {

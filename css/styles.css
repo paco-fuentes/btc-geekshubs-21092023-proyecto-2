@@ -1169,8 +1169,8 @@ body {
 #actionOnOff {
     position: absolute;
     /* background-color: red; */
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 2rem;
+    height: 2rem;
     transform: translate(-8.2rem, 7.5rem);
     border-radius: 50%;
 }
