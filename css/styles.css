@@ -1,17 +1,13 @@
 html {
-    -webkit-text-size-adjust: 100%;
-    /* Con esta línea se quita el boqueo de txt pequeño reajustado en ios */
+    -webkit-text-size-adjust: 100%; /* Con esta línea se quita el boqueo de txt pequeño reajustado en ios */
 }
 
 body {
     margin: 0;
     padding: 0;
-
     background-color: aqua;
-
     height: 100vh;
     width: 100vw;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,53 +51,28 @@ body {
     text-align: left;
     transform: translate(25rem, -10rem);
     width: 20rem;
-    /*  5.62rem;*/
     height: 37rem;
     text-align: left;
 }
 
 /* CONTENEDOR DE MAIN QUE CONTIENE TODA LA GAMEBOY */
-
 #gameBoxInv {
-    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-    /* background-color: #f6f8ff; */
-    /* background-color: red; */
     width: 22.5rem;
-    /*  5.62rem;*/
     height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
-
 }
 
-
 #gameBoxPrint1 {
-
     position: absolute;
-    /*     background-color: #f6f8ff; */
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
     width: 22.1rem;
-    /*  5.62rem;*/
     height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-    /* rgba(240, 46, 170, 0.2) */
-    /* rgba(237, 240, 46, 0.4) */
-    /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
         rgba(240, 46, 170, 0.2) 24rem 0rem,
         rgba(240, 46, 170, 0.2) 24.5rem 0rem,
@@ -111,21 +82,13 @@ body {
 }
 
 #gameBoxPrint2 {
-
     position: absolute;
-    /*     background-color: #f6f8ff; */
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
     width: 22.1rem;
-    /*  5.62rem;*/
     height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-    /* rgba(240, 46, 170, 0.2) */
-    /* rgba(237, 240, 46, 0.4) */
-    /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
         rgb(59, 240, 46, 0.05) -23rem 0rem,
         rgba(59, 240, 46, 0.1) -23.5rem 0rem,
@@ -135,21 +98,13 @@ body {
 }
 
 #gameBoxPrint3 {
-
     position: absolute;
-    /*     background-color: #f6f8ff; */
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
     width: 22.1rem;
-    /*  5.62rem;*/
     height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-    /* rgba(240, 46, 170, 0.2) */
-    /* rgba(237, 240, 46, 0.4) */
-    /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
         rgba(53, 46, 240, 0.25) 0rem -6rem,
         rgba(53, 46, 240, 0.30) 0rem -5rem,
@@ -159,21 +114,13 @@ body {
 }
 
 #gameBoxPrint4 {
-
     position: absolute;
-    /*     background-color: #f6f8ff; */
     border-radius: 1.2rem 1.2rem 4.8rem 1.2rem;
     width: 22.1rem;
-    /*  5.62rem;*/
     height: 37rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-    /* rgba(240, 46, 170, 0.2) */
-    /* rgba(237, 240, 46, 0.4) */
-    /* Sombra sobre fondo de la GAMEBOY */
     box-shadow:
         rgba(53, 46, 240, 0.25) 0rem 6rem,
         rgba(53, 46, 240, 0.30) 0rem 5rem,
@@ -182,156 +129,97 @@ body {
         rgba(53, 46, 240, 0.45) 0rem 2rem;
 }
 
-
-
-
 /* CONTENEDOR MITAD TOP DEL CUERPO DE LA GAMEBOY */
-
 #gameBoxToptop {
-    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: absolute;
-
     background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
     background-blend-mode: color-burn;
-
     background-size: cover;
     display: block;
     max-width: 100%;
-
     width: 22.5rem;
-    /*  5.62rem;*/
     height: 1.2rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     border-radius: 0.7rem 0.7rem 0.1rem 0.1rem;
     transform: translate(0, 0rem);
-
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
 }
 
 #lineaTop {
-
     position: absolute;
     background-color: rgba(216, 220, 232, 1);
     width: 22.1rem;
     height: 0.3rem;
-
     transform: translate(0rem, 1.2rem);
-
     box-shadow: inset 0.0rem 0.03rem 0.15rem 0.03rem;
-
 }
 
 #lineaTopL {
-
     position: absolute;
     background-color: rgba(216, 220, 232, 1);
     width: 0.3rem;
     height: 1.2rem;
-
     transform: translate(10rem, 0rem);
-
     box-shadow: inset 0.03rem 0rem 0.1rem 0.03rem;
     border-radius: -0.1rem -0.1rem 0.1rem 0.1rem;
 
 }
 
 #lineaTopR {
-
     position: absolute;
     background-color: rgba(216, 220, 232, 1);
     width: 0.3rem;
     height: 1.2rem;
-
     transform: translate(-10rem, 0rem);
-
     box-shadow: inset 0.03rem 0rem 0.1rem 0.03rem;
     border-radius: -0.1rem -0.1rem 0.1rem 0.1rem;
-
 }
 
 #gameBoxTop {
-    /*    Este ID será invisible para poder cuadrar los elementos y las curvas de la GAMEBOY */
     position: relative;
     background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
     background-blend-mode: color-burn;
-
     background-size: cover;
     display: block;
     max-width: 100%;
-
     width: 22.5rem;
-    /*  5.62rem;*/
     height: 18.2rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.1rem 0.1rem 0rem 0rem;
     transform: translate(0, 1.4rem);
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
 }
-
-
 
 #marco {
     position: absolute;
     background-color: rgba(100, 111, 120, 0.1);
     width: 19.80rem;
     height: 14.50rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transform: translate(0, -1rem);
-
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem;
-
     box-shadow: inset 0.1rem 0.1rem 0.4rem 0.010rem;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #marcoTop {
-
     position: absolute;
     background-color: rgba(120, 131, 140, 1);
     width: 19.60rem;
     height: 14.30rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transform: translate(0, -0.9rem);
-
     border-radius: 0.5rem 0.5rem 3.7rem 0.5rem;
-
-    /*     box-shadow:  -0.1em -0.1em  0.2rem 0.1rem rgb(51, 56, 61); */
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #lineaRojaTop1 {
@@ -368,17 +256,14 @@ body {
     background-color: rgb(49, 5, 5);
     width: 0.5rem;
     height: 0.5rem;
-
     transform: translate(-8.3rem, -1.8rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
 #ledTop {
     position: absolute;
-    /* background-color: red; */
     width: 0.3rem;
     height: 0.3rem;
-
     transform: translate(-8.3rem, -1.77rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -388,9 +273,6 @@ body {
     color: white;
     font-size: 0.45rem;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 0.3rem; */
-    /* height: 0.3rem; */
-
     transform: translate(-7.8rem, -0.85rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -401,9 +283,6 @@ body {
     color: white;
     font-size: 0.45rem;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 0.3rem; */
-    /* height: 0.3rem; */
-
     transform: translate(2rem, -6.3rem);
 }
 
@@ -413,15 +292,8 @@ body {
     width: 11.75rem;
     height: 10.75rem;
     transform: translate(0, -1rem);
-    /* añadir shadow in */
-    /* inset | offset-x | offset-y | color */
     box-shadow: inset 0.15rem 0.03rem 0.4rem 0.05rem;
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
 }
 
 #txtBottom1 {
@@ -430,9 +302,6 @@ body {
     font-weight: bold;
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 0.3rem; */
-    /* height: 0.3rem; */
-
     transform: translate(-8.3rem, 7.23rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -443,9 +312,6 @@ body {
     font-weight: lighter;
     font-size: 1.15rem;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 0.3rem; */
-    /* height: 0.3rem; */
-
     transform: translate(-3.35rem, 7.15rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -456,9 +322,6 @@ body {
     font-weight: bold;
     font-size: 0.40rem;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 0.3rem; */
-    /* height: 0.3rem; */
-
     transform: translate(-0.10rem, 7.4rem);
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -466,72 +329,40 @@ body {
 /* CONTENEDOR MITAD BOTTOM DEL CUERPO DE LA GAMEBOY */
 
 #gameBoxBottom {
-    /*     position: absolute;
-    background-color: rgba(216, 220, 232, 0.5); */
-
     position: absolute;
     background-image: url(../img/texture-1.png);
     background-color: rgba(216, 220, 232, 1);
     background-blend-mode: color-burn;
-
-
     background-size: cover;
     display: block;
     max-width: 100%;
-
     width: 22.5rem;
-    /*  5.62rem;*/
     height: 17.5rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     display: flex;
     flex-direction: column;
-    /*     justify-content: center; */
     align-items: center;
     transform: translate(0, 19.55rem);
-
     border-radius: 0rem 0rem 4.8rem 1.2rem;
-
-
-    /*    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 /* -------------- PANEL DE BOTONES ----------------- */
-
 #panel {
-
     position: absolute;
-
     width: 19.8rem;
-    /*  5.62rem;*/
     height: 12rem;
-    /*  9.25rem;  90mmx16/4 para aproximar a rem*/
-
     transform: translate(0, 1rem);
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 /* CRUCETA */
-
 #crucetaMarco {
     position: absolute;
     width: 6rem;
     height: 6rem;
     transform: translate(0rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #crucetaH {
@@ -539,7 +370,6 @@ body {
     background-color: rgb(10, 10, 10);
     width: 2rem;
     height: 6rem;
-    /* transform: translate(100%, 0%); */
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
 
@@ -548,7 +378,6 @@ body {
     background-color: rgb(10, 10, 10);
     width: 6rem;
     height: 2rem;
-    /* transform: translate(0%, 100%); */
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
 
@@ -678,11 +507,9 @@ body {
     height: 5.6rem;
     transform: translate(0%, 0%);
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-
 }
 
 /* -----------------START / SELECT-------------------------------- */
-
 #startMarcoPos {
     transform: translate(6rem, 6rem);
 }
@@ -691,16 +518,9 @@ body {
     position: absolute;
     width: 6rem;
     height: 6rem;
-    /*     transform: translate(6rem, 6rem); */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #start {
@@ -708,19 +528,12 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(0rem, -1rem);
-
     background-color: black;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-    /*     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #select {
@@ -728,19 +541,12 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(3.4rem, 1rem);
-
     background-color: black;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #startTop {
@@ -748,19 +554,12 @@ body {
     width: 2.9rem;
     height: 0.5rem;
     transform: translate(0.10rem, -0.98rem);
-
     background-color: grey;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-    /*     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #selectTop {
@@ -768,19 +567,12 @@ body {
     width: 2.9rem;
     height: 0.5rem;
     transform: translate(3.46rem, 1.02rem);
-
     background-color: grey;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #startTxt {
@@ -788,19 +580,13 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(0rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     color: blue;
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #selectTxt {
@@ -808,23 +594,16 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(3.4rem, 2rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     color: blue;
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 /* ----------------- A / B -------------------------------- */
-
 #botonesMarcoPos {
     transform: translate(14rem, 0rem);
 }
@@ -833,16 +612,9 @@ body {
     position: absolute;
     width: 6rem;
     height: 6rem;
-    /*     transform: translate(6rem, 6rem); */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonesMarcoPan {
@@ -851,17 +623,10 @@ body {
     height: 3.6rem;
     transform: translate(-1.6rem, -1rem);
     border-radius: 3rem 3rem 3rem 3rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
     background: linear-gradient(120deg, #544e4e92 1%, #e8dfdf64 20%, #e8dfdf64 80%, #ffffff5b 100%);
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
 }
 
 #botonA {
@@ -871,17 +636,11 @@ body {
     transform: translate(-1.4rem, -1rem);
     background-color: lightgray;
     box-shadow: inset 0.2rem 0.5rem 1rem 0.2rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonB {
@@ -891,17 +650,11 @@ body {
     transform: translate(3rem, -1rem);
     background-color: lightgray;
     box-shadow: inset 0.2rem 0.5rem 1rem 0.2rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonATop {
@@ -911,18 +664,11 @@ body {
     transform: translate(-1.3rem, -1rem);
     background-color: purple;
     background: radial-gradient(circle at 85%, rgb(213, 2, 213), rgb(193, 2, 193) 50%, rgb(222, 117, 222) 100%, rgb(239, 6, 239) 99.9%);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-    /*     transform: rotate(160deg); */
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonBTop {
@@ -931,17 +677,11 @@ body {
     height: 2.9rem;
     transform: translate(3.1rem, -1rem);
     background: radial-gradient(circle at 85%, rgb(213, 2, 213), rgb(193, 2, 193) 50%, rgb(222, 117, 222) 100%, rgb(239, 6, 239) 99.9%);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
-    /*     border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonATxt {
@@ -949,22 +689,14 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(-1.4rem, 1rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     color: blue;
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-    /*     transform: rotate(160deg); */
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #botonBTxt {
@@ -972,59 +704,30 @@ body {
     width: 3rem;
     height: 0.6rem;
     transform: translate(3rem, 1rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     color: blue;
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
-
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 /* --------------- BORDE SPEAKER ------------------ */
-
 #gameBoxBottomBordePos {
     transform: translate(-2.8rem, 11.5rem);
 }
 
 #gameBoxBottomBorde {
-
     position: absolute;
     width: 14rem;
     height: 6rem;
-
-    /* background-color: black; */
-
     border-radius: 0rem 0rem 4.8rem 0rem;
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
-
-    /* box-shadow: inset 0.1rem 0.1rem 1rem 1rem; */
-
-    /*    background: linear-gradient(330deg, blue, rgba(255, 255, 255, 0));; */
     background: linear-gradient(330deg, #998d8d3b 35%, #e8dfdf64 38%, #ffffff00 41%);
-
-
-    /* Agrega una máscara para definir la forma */
-    /*      -webkit-mask: radial-gradient(circle at bottom, transparent 50%, black 100%);
-    mask: radial-gradient(circle at bottom, transparent 50%, black 100%);  */
-
 }
 
 /* -----------------SPEAKER---------------------- */
-
 #speakerMarcoPos {
     transform: translate(-0.8rem, 12.6rem);
 }
@@ -1033,16 +736,10 @@ body {
     position: absolute;
     width: 9rem;
     height: 6rem;
-    /*     transform: translate(6rem, 6rem); */
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-    /* border-style: dotted;
-    border-width: 0.1rem;
-    border-color: red; */
 }
 
 #speakerL1 {
@@ -1050,17 +747,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(0.8rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
-
 }
 
 #speakerL1h {
@@ -1068,11 +760,8 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
@@ -1081,16 +770,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(2rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
 }
 
 #speakerL2h {
@@ -1098,11 +783,8 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
@@ -1111,16 +793,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(3.2rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
 }
 
 #speakerL3h {
@@ -1128,11 +806,8 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
@@ -1141,17 +816,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(4.4rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
-
 }
 
 #speakerL4h {
@@ -1159,11 +829,8 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
@@ -1172,17 +839,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(5.6rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
-
 }
 
 #speakerL5h {
@@ -1190,11 +852,8 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
@@ -1203,17 +862,12 @@ body {
     width: 0.5rem;
     height: 3.7rem;
     transform: translate(6.8rem, 0rem);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*     align-items: center; */
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-
-
 }
 
 #speakerL6h {
@@ -1221,27 +875,19 @@ body {
     width: 0.2rem;
     height: 2.7rem;
     transform: translate(0rem, -0.38rem);
-
     background-color: black;
-
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
-
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 /* /////////BOTONES JAVASCRIPT///////////// */
-
 #actionScreen {
     position: absolute;
     width: 11.75rem;
     height: 10.75rem;
-
     transform: translate(0rem, 4.16rem);
     background-size: cover;
-
     background-color: rgb(138, 160, 44, 1);
-    /* añadir shadow in */
-    /* inset | offset-x | offset-y | color */
     box-shadow: inset 0.15rem 0.03rem 0.4rem 0.05rem;
     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
@@ -1249,18 +895,12 @@ body {
 .black {
     width: 11.75rem;
     height: 10.75rem;
-
-    /* background-color: black; */
-
     border-radius: 0.1em;
-
-    /*  margin-bottom: 2em; */
 }
 
 
 #actionOnOff {
     position: absolute;
-    /* background-color: red; */
     width: 2rem;
     height: 2rem;
     transform: translate(-8.2rem, 7.5rem);
@@ -1269,7 +909,6 @@ body {
 
 #actionOnOff:active {
     position: absolute;
-    /* background-color: crimson; */
     width: 0.8rem;
     height: 0.8rem;
     transform: translate(-8.2rem, 7.5rem);
@@ -1354,14 +993,10 @@ body {
     height: 3rem;
     transform: translate(7.8rem, 20.4rem);
     background-color: rgba(100, 100, 100, 0);
-    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
-    /* Sombra invertida */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
 }
 
@@ -1371,14 +1006,10 @@ body {
     height: 3rem;
     transform: translate(7.8rem, 20.4rem);
     background-color: rgba(100, 100, 100, 0.2);
-    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
-    /* Sombra invertida */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
 }
 
@@ -1388,14 +1019,10 @@ body {
     height: 3rem;
     transform: translate(4rem, 22.6rem);
     background-color: rgba(100, 100, 100, 0);
-    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
-    /* Sombra invertida */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
 }
 
@@ -1405,14 +1032,10 @@ body {
     height: 3rem;
     transform: translate(4rem, 22.6rem);
     background-color: rgba(100, 100, 100, 0.2);
-    /* box-shadow: inset 0.5rem 0.2rem 1rem 0.2rem; */
-    /* Sombra invertida */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
 }
 
@@ -1423,12 +1046,10 @@ body {
     transform: translate(-13.55rem, 25.85rem);
     rotate: 330deg;
     background-color: rgba(100, 100, 100, 0);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
 
@@ -1439,12 +1060,10 @@ body {
     transform: translate(-13.55rem, 25.85rem);
     rotate: 330deg;
     background-color: rgba(100, 100, 100, 0.2);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
 
@@ -1455,12 +1074,10 @@ body {
     transform: translate(-17rem, 23.85rem);
     rotate: 330deg;
     background-color: rgba(100, 100, 100, 0);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
 
@@ -1471,18 +1088,14 @@ body {
     transform: translate(-17rem, 23.85rem);
     rotate: 330deg;
     background-color: rgba(100, 100, 100, 0.2);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
 
-
 /* ----------CLASS PARA ROTACION-------------- */
-
 .rotated {
     transform: rotate(330deg);
 }
