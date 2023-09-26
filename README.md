@@ -34,11 +34,23 @@ Para este proyecto me he propuesto profundizar en el aprendizaje de CSS investig
 
 Tambien he experimentado con texturas, blendmodes, sombreados, gradientes y sistemas de medida.
 
-El dibujo parte de las medidas 148x90mm que son una vez reescalado a rem (1rem = 16px), unos 37x22.5rem. A partir de aquí el dibujo se basó en la observación de un modelo.  
+El dibujo parte de las medidas 148x90mm que son una vez reescalado a rem (1rem = 16px), unos 37x22.5rem. A partir de aquí el dibujo se basó en la observación de un modelo. 
 
-<h3 align="center"><img src="./img/gb-foot-print-1.png"  width="330" /></h3>
-<h3 align="center"><img src="./img/gb-css-line.png" width="400" /></h3>
-<h3 align="center"><img src="./img/gameboy-foto.png" width="310" /></h3>
+A continuacion: un footprint, mi css y un modelo de referencia para los detalles.
+
+---
+
+<p align="center"><img src="./img/gb-foot-print-1.png"  width="330" /></p>
+
+---
+
+<p align="center"><img src="./img/gb-css-line.png" width="400" /></p>
+
+---
+
+<p align="center"><img src="./img/gameboy-foto.png" width="310" /></p>
+
+---
 
 
 
@@ -48,17 +60,29 @@ Para solucionar la interactividad con el botón on / off y el cambio de imagen h
 
 En la parte de media, lo que sale por la pantalla y que es la única no dibujada, he decidio no usar vídeos o .gif de momento para mejorar la experiencia de usuario y la interacción fluida con la interfaz. Para ello en su lugar he cargado imagenes estaticas con la resolución real de la pantalla de la GAMEBOY (160x144px) pero con los fondos transparentes para que se vea todo el rato el mismo color de fondo, el del css y su sombreado, y así parezca más ese tipo de pantallan LCD "dot matrix" de 1989.
 
+Si que he añadido el icónico start-up sound al botón de encendido, y los que tuvieron la consola igual también recuerdan el chasquido "chckl!" del speaker al apagar la consola.
+
+---
+
 <h3 align="center">
 <img src="./img/a-1-trans.png"> <img src="./img/a-1.png"> <img src="./img/start-1-trans.png"> <img src="./img/start-1.png"></h3>
 
+---
+
 El cuerpo de la consola tiene una capa de textura "rough plastic surface", aunque no ha quedado todo lo realista que esperaba.
 
+---
+
 <h3 align="center"><img src="./img/texture-1.png" width="400" /></h3>
+
+---
     
 
 ## Manual:
 
 ![image](./img/manual.png)
+
+---
 
 ## Observaciones:
 
@@ -89,6 +113,8 @@ Quedan pendientes las siguientes propuestas para una V2:
 ### Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles.
+
+---
 
 ### Autor
 Paco Fuentes
