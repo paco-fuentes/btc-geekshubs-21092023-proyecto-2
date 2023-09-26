@@ -34,19 +34,27 @@ Para este proyecto me he propuesto profundizar en el aprendizaje de CSS investig
 
 Tambien he experimentado con texturas, blendmodes, sombreados, gradientes y sistemas de medida.
 
-![image](./img/gb-footprint.png)
+El dibujo parte de las medidas 148x90mm que son una vez reescalado a rem (1rem = 16px), unos 37x22.5rem. A partir de aquí el dibujo se basó en la observación de un modelo.  
 
-El dibujo parte de las medidas 148x90mm que pasadas a rem (1rem == 16px) son 37x22.5rem, a partir de aquí el dibujo se basó en la observación de un modelo.  
+<h3 align="center"><img src="./img/gb-foot-print-1.png"  width="330" /></h3>
+<h3 align="center"><img src="./img/gb-css-line.png" width="400" /></h3>
+<h3 align="center"><img src="./img/gameboy-foto.png" width="310" /></h3>
 
-![image](./img/gb-draw.png)
+
 
 Finalmente para la parte de interactividad he decidido mantener el código propuesto para el ejercicio, sin ir mucho más a allá en la investigación del DOM, y sí en CSS para dejarlo más asentado como conocimiento. 
 
-Para solucionar la interactividad con el on / off y el cambio de imagen he recurrido a un truco que aprendí cuando usaba Arduino con el cual convierto un pulsador en un interruptor guardando el estado anterior y comprandolo con el actual.
+Para solucionar la interactividad con el botón on / off y el cambio de imagen he recurrido a un truco que aprendí cuando usaba Arduino con el cual convierto un pulsador en un interruptor guardando el estado anterior y comprandolo con el actual, si el estado actual es ON entonces el resto de botones pueden funcionar tmabien.
 
-He decidio no usar vídeos o .gif de momento para mejorar la experiencia de usuario, la interacción fluida con la interfaz, y en su lugar he dejado imagenes estaticas con la resolución real de la pantalla de la GAMEBOY (160x144px) pero con los fondos transparentes para que se vea todo el rato el mismo color de fondo y parezca más ese tipo de pantalla.
+En la parte de media, lo que sale por la pantalla y que es la única no dibujada, he decidio no usar vídeos o .gif de momento para mejorar la experiencia de usuario y la interacción fluida con la interfaz. Para ello en su lugar he cargado imagenes estaticas con la resolución real de la pantalla de la GAMEBOY (160x144px) pero con los fondos transparentes para que se vea todo el rato el mismo color de fondo, el del css y su sombreado, y así parezca más ese tipo de pantallan LCD "dot matrix" de 1989.
 
-El cuerpo de la consola tiene una capa de textura "rough plastic surface", aunque no ha quedado todo lo realista que esperaba. : (
+<h3 align="center">
+<img src="./img/a-1-trans.png"> <img src="./img/a-1.png"> <img src="./img/start-1-trans.png"> <img src="./img/start-1.png"></h3>
+
+El cuerpo de la consola tiene una capa de textura "rough plastic surface", aunque no ha quedado todo lo realista que esperaba.
+
+<h3 align="center"><img src="./img/texture-1.png" width="400" /></h3>
+    
 
 ## Manual:
 
@@ -74,7 +82,7 @@ Quedan pendientes las siguientes propuestas para una V2:
 
 ---
 
-![image](./img/gb-draw-2.png)
+<h3 align="center"><img src="./img/gb-css-end.png" width="" /></h3>
 
 ---
 
